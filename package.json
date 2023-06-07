@@ -1,0 +1,24 @@
+{
+  "name": "yield_aggregator",
+  "version": "1.0.0",
+  "description": "The goal of this challenge is to create a Yield Aggregator. The user will interact with a React website which will talk to your aggregator smart contract to deposit their WETH into either Compound V3 or Aave V3 depending on which application provides a better APY. Since the APY changes overtime, the user can rebalance their funds to move funds from one application to another, and they can also withdraw at any time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binderman/yield_aggregator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/binderman/yield_aggregator/issues"
+  },
+  "homepage": "https://github.com/binderman/yield_aggregator#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "hardhat": "^2.14.1"
+  }
+}
